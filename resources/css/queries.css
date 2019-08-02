@@ -13,6 +13,9 @@
 	.video-product{
 		width: 100%;
 	}
+	.fb-page{
+		margin-left: 13%;
+	}
 }
 
 /* Small tablet to big tablet from 768px to 1023px; */
@@ -80,6 +83,9 @@
 	.video-product{
 		width: 95%;
 	}
+	.fb-page{
+		margin-left: 5%;
+	}
 }
 
 /* Cell phones to small tablets */
@@ -134,13 +140,13 @@
 	.logo-sponsor{
 		width: 80px;
 	}
-	form{
+	/* form{
 		width: 80%;
 		margin-left: 10%;
 	}
 	label{
 		margin-left: 35%;
-	}
+	} */
 	.information{
 		margin-top: 20px;
 		text-align: center;
@@ -160,9 +166,9 @@
 		margin: 18px;
 	}
 	.fb-page{
-		margin-left: 15%;
+		margin-left: 3%;
 		margin-top: 20px;
-		width: 80%;
+	
 	}
 }
 
@@ -197,6 +203,6 @@
 		border-radius: 5px;
 	}
 	.fb-page{
-		width: 50px;
+		margin-left: 1%;
 	}
 }
