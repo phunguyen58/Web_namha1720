@@ -159,8 +159,8 @@ header {
 
 .heading-main-box{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 38%;
+    left: 15%;
     transform: translate(-45%, -55%);
     width: 1140px;
 }
