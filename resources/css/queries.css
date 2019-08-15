@@ -1,4 +1,17 @@
+/*-----display up to 1350px;*/
+@media only screen and (max-width: 1300px){
+	.content__container__list__item {
+        line-height:50px;
+        margin:0;
+        margin-left: 6%;
+	  }
+	  .content__container {
+		  height: 58px;
+	  }
+}
+
 /* Big tablet to 1200px; */
+
 @media only screen and (max-width: 1200px){
 	html{
 		font-size: 16px;
@@ -21,12 +34,12 @@
 /* Small tablet to big tablet from 768px to 1023px; */
 @media only screen and (max-width: 1023px){
 	.logo{
-		width: 100px;
-		margin-left: 10px;
+		width: 90px;
+		margin-left: 60px;
 	}
 	.main-nav {
 		margin-right: 15px;
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 
 	.main-nav li {
@@ -50,16 +63,16 @@
 		font-size: 90%;
 	}
 
-	.product-box ul li{
+	/* .product-box ul li{
     list-style: none;
     margin: 20px 0;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20%;
-	}
-	.product-box .btn{
+	} */
+	/* .product-box .btn{
 		margin-left: 20%;
-	}
+	} */
 	.product-box .small-icon{
 		margin-right: 5px;
 	}
@@ -70,7 +83,7 @@
 	}
 
 	.social-icons li i{
-		font-size: 30px;
+		font-size: 40px;
 	}
 
 	.information i{
@@ -84,7 +97,7 @@
 		width: 95%;
 	}
 	.fb-page{
-		margin-left: 5%;
+		margin-left: -10%;
 	}
 }
 
@@ -98,8 +111,9 @@
 		visibility: hidden;
 	}
 	.logo{
-		width: 150px;
-		margin-left: 13%;
+		width: 100px;
+		margin-left: 38%;
+		margin-top: 10%;
 	}
 
 	h1{
@@ -166,7 +180,7 @@
 		margin: 18px;
 	}
 	.fb-page{
-		margin-left: 3%;
+		margin-left: 15%;
 		margin-top: 20px;
 	
 	}
@@ -181,28 +195,51 @@
 	h1{
 		font-size: 200%;
 	}
+	.p-long-2{
+		font-size: 120%;
+	}
 
 	.logo{
-		width: 200px;
-		margin-top: 5%;
-		margin-left: 27%;
+		width: 100px;
+		margin-top: 30%;
+		margin-left: 37%;
 	}
 
 	.heading-main-box{
 		transform: translate(-10%, -50%);
-	}
+		top: 60%;
+		}
 
-	.heading-main-box .btn{
+	/* .heading-main-box .btn{
 		display: block;
 		margin-bottom: 20px;
 		margin-left: 2%;
+	} */
+
+	.information li{
+		font-size: 130%;
 	}
-	.product-box .btn{
+
+
+	/* .product-box .btn{
 		margin-left: 30%;
 		width: 40%;
 		border-radius: 5px;
-	}
+	} */
 	.fb-page{
-		margin-left: 1%;
+		margin-left: -3.5%;
 	}
+	.content__container__list__item {
+			line-height:37px;
+			margin:0;
+			margin-left: 1.5%;
+		  }
+		  .content__container {
+			  height: 44px;
+		  }
+		  .social-icons{
+			margin-top: 50px;
+			list-style: none;
+			margin-left: 50px;
+		}
 }

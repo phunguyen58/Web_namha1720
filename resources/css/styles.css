@@ -157,15 +157,6 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
-
-.heading-main-box{
-    position: absolute;
-    top: 50%;
-    left: 12%;
-    transform: translate(-45%, -55%);
-    width: 1140px;
-}
-
 /*------------------------------------------*/
 /*------------sticky------------------*/
 .sticky{
@@ -392,19 +383,25 @@ figcaption{
 /*------------------------------*/
 /*------------footer----------------*/
 
-footer{
+/* footer{
     text-align: center;
     font-size: 15px;
     background-color: #BBDFFA;
     height: 20px;
     color: #265077;
-}
+} */
 
 
 
 /*------------------content_container-------------------*/
 
-
+.heading-main-box{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-45%, -55%);
+    width: 1140px;
+}
 /*---------------*/
 
 .content__container {
