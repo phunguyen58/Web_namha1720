@@ -128,9 +128,11 @@
 	}
 	.about-picture{
 		text-align: center;
+
 	}
 	.about-picture img{
 		width: 70%;
+		margin-bottom: 10%;
 	}
 	.about-section .row .p-long{
 		font-size: 15px;
@@ -187,7 +189,7 @@
 }
 
 /* Cellphones from 0 to 480px; */
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 500px){
 	html{
 		font-size: 12px;
 	}
@@ -227,7 +229,7 @@
 		border-radius: 5px;
 	} */
 	.fb-page{
-		margin-left: -3.5%;
+		margin-left: 5%;
 	}
 	.content__container__list__item {
 			line-height:37px;
@@ -242,4 +244,72 @@
 			list-style: none;
 			margin-left: 50px;
 		}
+
 }
+@media only screen and (max-width: 426px){
+	.fb-page {
+		margin-left: -4%;
+	}
+	.content__container__text {
+		display: inline;
+		float: left;
+		margin-right: 2%;
+		margin-left: 1.5%;
+	  }
+  
+	  .content__container__list {
+		margin-top: 0;
+		padding-left: 110px;
+		text-align: left;
+		list-style: none;
+		-webkit-animation-iteration-count: 0;
+	  }
+	  .content__container__list__item {
+		line-height:30px;
+		margin-left: 0px;
+		
+	}
+	.content__container {
+		height: 35px;
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 414px){
+	
+}
+
+@media only screen and (max-width: 320px){
+	.fb-page{
+		margin-left: -50px;
+		width: 70%;
+	}
+	.heading-main-box{
+		margin-left: -20px;
+	
+	}
+	.content__container__text {
+		display: inline;
+		float: left;
+		margin-right: 0;
+		margin-left: 0%;
+	  }
+  
+	  .content__container__list {
+		margin-top: 0;
+		margin-left: -1%;
+		padding-left: 110px;
+		text-align: left;
+		list-style: none;
+		-webkit-animation-iteration-count: 0;
+	  }
+	  .content__container__list__item {
+		line-height:33px;
+		
+	}
+	.content__container {
+		height: 40px;
+	}
+	
+}
+

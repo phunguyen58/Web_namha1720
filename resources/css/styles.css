@@ -21,7 +21,7 @@ body {
 /*-------------------------------------------*/
 /*----------resusable component--------------*/
 
-.btn{
+/* .btn{
     text-decoration: none;
     color: white;
     background-color: #e67e22;
@@ -37,7 +37,7 @@ body {
 .btn:hover,
 .btn:active{
     background-color: #d35400;
-}
+} */
 
 .clearfix::after{
     content: " ";
@@ -378,6 +378,8 @@ figcaption{
 
 .fb-page{
     margin-left: 25%;
+    width: 100%;
+
 }
 
 /*------------------------------*/
