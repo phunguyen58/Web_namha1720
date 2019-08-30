@@ -63,16 +63,6 @@
 		font-size: 90%;
 	}
 
-	/* .product-box ul li{
-    list-style: none;
-    margin: 20px 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20%;
-	} */
-	/* .product-box .btn{
-		margin-left: 20%;
-	} */
 	.product-box .small-icon{
 		margin-right: 5px;
 	}
@@ -156,13 +146,6 @@
 	.logo-sponsor{
 		width: 80px;
 	}
-	/* form{
-		width: 80%;
-		margin-left: 10%;
-	}
-	label{
-		margin-left: 35%;
-	} */
 	.information{
 		margin-top: 20px;
 		text-align: center;
@@ -212,22 +195,13 @@
 		top: 60%;
 		}
 
-	/* .heading-main-box .btn{
-		display: block;
-		margin-bottom: 20px;
-		margin-left: 2%;
-	} */
 
 	.information li{
 		font-size: 130%;
 	}
 
 
-	/* .product-box .btn{
-		margin-left: 30%;
-		width: 40%;
-		border-radius: 5px;
-	} */
+	
 	.fb-page{
 		margin-left: 5%;
 	}
